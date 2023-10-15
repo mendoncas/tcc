@@ -13,7 +13,7 @@ host = "localhost:12345"
 memory = "10g"
 cpus = "4"
 run_time = "80s"
-weaver_cpu = "30"
+weaver_cpu = "40"
 
 for (service, colocate) in colocations.items():
     # os.system("weaver multi purge --force")

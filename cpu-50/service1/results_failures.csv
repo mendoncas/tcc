@@ -1,0 +1,13 @@
+Method,Name,Error,Occurrences
+POST,/setCurrency,"ConnectionResetError(104, 'Connection reset by peer')",17
+GET,/product/0PUK6V6EV0,"ConnectionResetError(104, 'Connection reset by peer')",9
+GET,/,"ConnectionResetError(104, 'Connection reset by peer')",3652
+GET,/product/LS4PSXUNUM,"ConnectionResetError(104, 'Connection reset by peer')",12
+GET,/product/6E92ZMYYFZ,"ConnectionResetError(104, 'Connection reset by peer')",4
+GET,/product/66VCHSJNUP,"ConnectionResetError(104, 'Connection reset by peer')",7
+GET,/product/1YMWWN1N4O,"ConnectionResetError(104, 'Connection reset by peer')",13
+GET,/product/9SIQT8TOJO,"ConnectionResetError(104, 'Connection reset by peer')",7
+GET,/product/2ZYFJ3GM2N,"ConnectionResetError(104, 'Connection reset by peer')",9
+GET,/product/OLJCESPC7Z,"ConnectionResetError(104, 'Connection reset by peer')",14
+GET,/product/L9ECAV7KIM,"ConnectionResetError(104, 'Connection reset by peer')",6
+GET,/cart,"ConnectionResetError(104, 'Connection reset by peer')",31

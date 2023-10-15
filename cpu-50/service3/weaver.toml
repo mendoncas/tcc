@@ -1,0 +1,22 @@
+[serviceweaver]
+binary = "../onlineboutique"
+rollout = "5m"
+colocate = []
+
+[kube]
+image = "ricardocgm/weaver-onlineboutique"
+
+[gke]
+regions = [ "us-west1",]
+
+[kube.listeners.boutique]
+public = true
+
+[single.listeners.boutique]
+address = "localhost:12345"
+
+[multi.listeners.boutique]
+address = "localhost:12345"
+
+[gke.listeners.boutique]
+public_hostname = "onlineboutique.example.com"
